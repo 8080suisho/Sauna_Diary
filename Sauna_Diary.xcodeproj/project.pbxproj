@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C1DCB6AC1A7D2A094E9ED5 /* Pods_Sauna_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413FD9987EDFA4D6ED5020D3 /* Pods_Sauna_Diary.framework */; };
+		2C628F3224780F8E008C320B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C628F3124780F8E008C320B /* PhotoViewController.swift */; };
+		2C9AD3932474251700492AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3922474251700492AF8 /* AppDelegate.swift */; };
+		2C9AD3952474251700492AF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3942474251700492AF8 /* SceneDelegate.swift */; };
+		2C9AD3972474251700492AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3962474251700492AF8 /* ViewController.swift */; };
+		2C9AD39A2474251700492AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9AD3982474251700492AF8 /* Main.storyboard */; };
+		2C9AD39C2474251C00492AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9AD39B2474251C00492AF8 /* Assets.xcassets */; };
+		2C9AD39F2474251C00492AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9AD39D2474251C00492AF8 /* LaunchScreen.storyboard */; };
+		2C9AD3A7247436FA00492AF8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3A6247436FA00492AF8 /* CalendarViewController.swift */; };
+		2C9AD3A92474374B00492AF8 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3A82474374B00492AF8 /* Diary.swift */; };
+		2C9AD3AB2474376A00492AF8 /* AddDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3AA2474376A00492AF8 /* AddDiaryViewController.swift */; };
+		2C9AD3AD2474379E00492AF8 /* DetailDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3AC2474379E00492AF8 /* DetailDiaryViewController.swift */; };
+		2C9AD3AF2474382600492AF8 /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3AE2474382600492AF8 /* SimpleAlert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C628F3124780F8E008C320B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		2C9AD38F2474251700492AF8 /* Sauna_Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sauna_Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9AD3922474251700492AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C9AD3942474251700492AF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C9AD3962474251700492AF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C9AD3992474251700492AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C9AD39B2474251C00492AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C9AD39E2474251C00492AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C9AD3A02474251C00492AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9AD3A6247436FA00492AF8 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2C9AD3A82474374B00492AF8 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		2C9AD3AA2474376A00492AF8 /* AddDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryViewController.swift; sourceTree = "<group>"; };
+		2C9AD3AC2474379E00492AF8 /* DetailDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiaryViewController.swift; sourceTree = "<group>"; };
+		2C9AD3AE2474382600492AF8 /* SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlert.swift; sourceTree = "<group>"; };
+		413FD9987EDFA4D6ED5020D3 /* Pods_Sauna_Diary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sauna_Diary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F397094F25152CF308CA9A /* Pods-Sauna_Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sauna_Diary.debug.xcconfig"; path = "Target Support Files/Pods-Sauna_Diary/Pods-Sauna_Diary.debug.xcconfig"; sourceTree = "<group>"; };
+		83A236E1710335C467F6E302 /* Pods-Sauna_Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sauna_Diary.release.xcconfig"; path = "Target Support Files/Pods-Sauna_Diary/Pods-Sauna_Diary.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C9AD38C2474251700492AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C1DCB6AC1A7D2A094E9ED5 /* Pods_Sauna_Diary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C9AD3862474251700492AF8 = {
+			isa = PBXGroup;
+			children = (
+				2C9AD3912474251700492AF8 /* Sauna_Diary */,
+				2C9AD3902474251700492AF8 /* Products */,
+				8414290F90307AED32774334 /* Pods */,
+				596A83C9A914E88D30786D1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C9AD3902474251700492AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AD38F2474251700492AF8 /* Sauna_Diary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C9AD3912474251700492AF8 /* Sauna_Diary */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AD3922474251700492AF8 /* AppDelegate.swift */,
+				2C9AD3942474251700492AF8 /* SceneDelegate.swift */,
+				2C9AD3962474251700492AF8 /* ViewController.swift */,
+				2C9AD3982474251700492AF8 /* Main.storyboard */,
+				2C9AD39B2474251C00492AF8 /* Assets.xcassets */,
+				2C9AD39D2474251C00492AF8 /* LaunchScreen.storyboard */,
+				2C9AD3A02474251C00492AF8 /* Info.plist */,
+				2C9AD3A6247436FA00492AF8 /* CalendarViewController.swift */,
+				2C9AD3A82474374B00492AF8 /* Diary.swift */,
+				2C9AD3AA2474376A00492AF8 /* AddDiaryViewController.swift */,
+				2C9AD3AC2474379E00492AF8 /* DetailDiaryViewController.swift */,
+				2C9AD3AE2474382600492AF8 /* SimpleAlert.swift */,
+				2C628F3124780F8E008C320B /* PhotoViewController.swift */,
+			);
+			path = Sauna_Diary;
+			sourceTree = "<group>";
+		};
+		596A83C9A914E88D30786D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413FD9987EDFA4D6ED5020D3 /* Pods_Sauna_Diary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8414290F90307AED32774334 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52F397094F25152CF308CA9A /* Pods-Sauna_Diary.debug.xcconfig */,
+				83A236E1710335C467F6E302 /* Pods-Sauna_Diary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C9AD38E2474251700492AF8 /* Sauna_Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9AD3A32474251C00492AF8 /* Build configuration list for PBXNativeTarget "Sauna_Diary" */;
+			buildPhases = (
+				93D2C7CCD98B2D11A3EB77DD /* [CP] Check Pods Manifest.lock */,
+				2C9AD38B2474251700492AF8 /* Sources */,
+				2C9AD38C2474251700492AF8 /* Frameworks */,
+				2C9AD38D2474251700492AF8 /* Resources */,
+				403B73026B0682FDB9A54247 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sauna_Diary;
+			productName = Sauna_Diary;
+			productReference = 2C9AD38F2474251700492AF8 /* Sauna_Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C9AD3872474251700492AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "諸星水晶";
+				TargetAttributes = {
+					2C9AD38E2474251700492AF8 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C9AD38A2474251700492AF8 /* Build configuration list for PBXProject "Sauna_Diary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C9AD3862474251700492AF8;
+			productRefGroup = 2C9AD3902474251700492AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C9AD38E2474251700492AF8 /* Sauna_Diary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C9AD38D2474251700492AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9AD39F2474251C00492AF8 /* LaunchScreen.storyboard in Resources */,
+				2C9AD39C2474251C00492AF8 /* Assets.xcassets in Resources */,
+				2C9AD39A2474251700492AF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403B73026B0682FDB9A54247 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sauna_Diary/Pods-Sauna_Diary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sauna_Diary/Pods-Sauna_Diary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sauna_Diary/Pods-Sauna_Diary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D2C7CCD98B2D11A3EB77DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sauna_Diary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C9AD38B2474251700492AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9AD3A7247436FA00492AF8 /* CalendarViewController.swift in Sources */,
+				2C9AD3A92474374B00492AF8 /* Diary.swift in Sources */,
+				2C9AD3972474251700492AF8 /* ViewController.swift in Sources */,
+				2C9AD3AD2474379E00492AF8 /* DetailDiaryViewController.swift in Sources */,
+				2C9AD3932474251700492AF8 /* AppDelegate.swift in Sources */,
+				2C628F3224780F8E008C320B /* PhotoViewController.swift in Sources */,
+				2C9AD3AB2474376A00492AF8 /* AddDiaryViewController.swift in Sources */,
+				2C9AD3AF2474382600492AF8 /* SimpleAlert.swift in Sources */,
+				2C9AD3952474251700492AF8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C9AD3982474251700492AF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C9AD3992474251700492AF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C9AD39D2474251C00492AF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C9AD39E2474251C00492AF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C9AD3A12474251C00492AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C9AD3A22474251C00492AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C9AD3A42474251C00492AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F397094F25152CF308CA9A /* Pods-Sauna_Diary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
+				INFOPLIST_FILE = Sauna_Diary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.SaunaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L12SuishoMorohoshi-Distribution";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C9AD3A52474251C00492AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A236E1710335C467F6E302 /* Pods-Sauna_Diary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
+				INFOPLIST_FILE = Sauna_Diary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.SaunaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L12SuishoMorohoshi-Distribution";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C9AD38A2474251700492AF8 /* Build configuration list for PBXProject "Sauna_Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9AD3A12474251C00492AF8 /* Debug */,
+				2C9AD3A22474251C00492AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9AD3A32474251C00492AF8 /* Build configuration list for PBXNativeTarget "Sauna_Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9AD3A42474251C00492AF8 /* Debug */,
+				2C9AD3A52474251C00492AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C9AD3872474251700492AF8 /* Project object */;
+}
