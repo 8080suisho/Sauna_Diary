@@ -39,7 +39,7 @@ class PhotoViewController: UIViewController,UINavigationControllerDelegate,UIIma
         
         let textFontAttributes = [
             NSAttributedString.Key.font: UIFont(name:"Arial",size:120)!,
-            NSAttributedString.Key.foregroundColor:UIColor.red
+            NSAttributedString.Key.foregroundColor:UIColor.blue
         ]
         
         UIGraphicsBeginImageContext(image.size)

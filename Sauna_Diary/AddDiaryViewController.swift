@@ -8,10 +8,12 @@
 
 import UIKit
 
-class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate {
+class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
    @IBOutlet weak var titleTexitField: UITextField!
    @IBOutlet weak var detailTextView: UITextView!
+   @IBOutlet var photoImageView: UIImageView!
+
    
    override func viewDidLoad() {
        super.viewDidLoad()
@@ -53,5 +55,36 @@ class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewD
     
        
    }
+    
+    
+    
+    
+
+    
+    func presentPickerController(sourceType:UIImagePickerController.SourceType){
+        if UIImagePickerController.isSourceTypeAvailable(sourceType){
+            let picker = UIImagePickerController()
+            picker.sourceType = sourceType
+            picker.delegate = self
+            self.present(picker,animated: true,completion: nil)
+        }
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController,
+                               didFinishPickingMediaWithInfo info:[UIImagePickerController.InfoKey: Any]) {
+        self.dismiss(animated: true,completion: nil)
+        
+        photoImageView.image = info[.originalImage]as?UIImage
+    }
+    
+    
+    @IBAction func onTappedAlbumButton(){
+        presentPickerController(sourceType: .photoLibrary)
+    }
+    
+    
+    
+    
+    
    
 }
