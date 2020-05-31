@@ -39,20 +39,24 @@ class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewD
    @IBAction func save() {
        if titleTexitField.text != "" {
            if detailTextView.text != "" {
-               let newDiary = Diary.create()
-               newDiary.title = titleTexitField.text!
-               newDiary.note = detailTextView.text
-               let today = Diary.changeDateType(date: Date())
-               newDiary.date = today
-               newDiary.save()
-               self.navigationController?.popViewController(animated: true)
+            if photoImageView.image != nil{
+                let newDiary = Diary.create()
+                newDiary.title = titleTexitField.text!
+                newDiary.note = detailTextView.text
+                newDiary.photo = photoImageView.image?.jpegData(compressionQuality: 1.0)
+                let today = Diary.changeDateType(date: Date())
+                newDiary.date = today
+                newDiary.save()
+                self.navigationController?.popViewController(animated: true)
+            }else{
+               SimpleAlert.showAlert(viewController: self, title: "写真なし", message: "写真を選んでください", buttonTitle: "OK")
+            }
            } else {
                SimpleAlert.showAlert(viewController: self, title: "日記なし", message: "内容を描いてください", buttonTitle: "OK")
            }
        } else {
            SimpleAlert.showAlert(viewController: self, title: "タイトルなし", message: "タイトルを書いてください", buttonTitle: "OK")
        }
-    
        
    }
     
@@ -81,10 +85,6 @@ class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewD
     @IBAction func onTappedAlbumButton(){
         presentPickerController(sourceType: .photoLibrary)
     }
-    
-    
-    
-    
     
    
 }

@@ -19,6 +19,7 @@ class Diary: Object {
    @objc dynamic var date: String = ""
    @objc dynamic var title: String = ""
    @objc dynamic var note: String = ""
+   @objc dynamic var photo: Data? = nil
    
    //キーの設定
    override static func primaryKey() -> String? {

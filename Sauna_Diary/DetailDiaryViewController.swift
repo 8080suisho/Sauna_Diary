@@ -13,12 +13,17 @@ class DetailDairyViewController: UIViewController {
    var selectedDiary = Diary()
    
    @IBOutlet weak var detailTextView: UITextView!
+   @IBOutlet var photoImageView: UIImageView!
 
    override func viewDidLoad() {
        super.viewDidLoad()
        
        self.navigationController?.title = "\(selectedDiary.title)"
        detailTextView.text = selectedDiary.note
+       if selectedDiary.photo != nil{
+        photoImageView.image = UIImage(data: selectedDiary.photo!)
+       }
+    
    }
    
 
