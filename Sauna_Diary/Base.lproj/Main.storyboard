@@ -23,6 +23,26 @@
                                     <segue destination="mN4-8v-i4T" kind="unwind" unwindAction="backWithSender:" id="vJs-xi-bDq"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="サ活とは" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvG-R0-XBu">
+                                <rect key="frame" x="136" y="51" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jIh-SM-T2R">
+                                <rect key="frame" x="33" y="106" width="307" height="588"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">サ活とは、サウナ活動の略称です。  シンプルに言うとサウナを楽しむこと、 それがサ活です。  サウナの楽しみ方は人それぞれですが、 なかでも「ととのう」ことがサ活の醍醐味です。  ととのうとはサウナに入ることでトリップ状態になることで、サウナマニアにはととのうためにサウナに入っているという人も多いです。  ととのうためのコンディションは人それぞれです。温度は何度か、水風呂には何回入るか、など自分に合ったものを探す必要があります。  このアプリでサ活の日記を付けることで、自分のコンディションを把握しサ活を充実させましょう！</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="サウナ" translatesAutoresizingMaskIntoConstraints="NO" id="KeW-ey-0zD">
+                                <rect key="frame" x="33" y="527" width="169" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="o1d-cI-c8K"/>
@@ -32,7 +52,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2t8-9p-NZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="mN4-8v-i4T" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2425" y="-556"/>
+            <point key="canvasLocation" x="2424.8000000000002" y="-556.4039408866995"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -42,49 +62,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="サ活" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaH-lU-evR">
-                                <rect key="frame" x="54" y="155" width="266" height="215"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3p-eq-PJA">
-                                <rect key="frame" x="114" y="649" width="146" height="63"/>
+                                <rect key="frame" x="114" y="566" width="146" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="サ活について">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="ag8-7s-XT8" kind="presentation" modalPresentationStyle="automatic" id="Wto-Bj-MJS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-nZ-9pb">
-                                <rect key="frame" x="114" y="541" width="146" height="63"/>
+                                <rect key="frame" x="114" y="637" width="146" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="サ活写真">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="サ活写真を撮る">
+                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="3my-Wf-YLr" kind="presentation" modalPresentationStyle="fullScreen" id="HSg-Yt-jPB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCK-FS-RDg">
-                                <rect key="frame" x="114" y="428" width="146" height="63"/>
+                                <rect key="frame" x="99" y="450" width="176" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="サ活日記">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="サ活日記を書く">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="aYY-lw-SGo" kind="presentation" modalPresentationStyle="fullScreen" id="Pyh-bM-8a1"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="サ活" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaH-lU-evR">
+                                <rect key="frame" x="108" y="179" width="159" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -97,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58" y="-556"/>
+            <point key="canvasLocation" x="-58.399999999999999" y="-556.4039408866995"/>
         </scene>
         <!--Photo View Controller-->
         <scene sceneID="sNu-f1-GaH">
@@ -167,7 +185,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zP-0p-Iit" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="o8W-kM-FFb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2425" y="-1503"/>
+            <point key="canvasLocation" x="2424.8000000000002" y="-1503.6945812807883"/>
         </scene>
         <!--サ活日記-->
         <scene sceneID="foV-HR-9d1">
@@ -313,6 +331,7 @@
                     <connections>
                         <outlet property="detailTextView" destination="MI8-wG-f4m" id="OhD-Tb-USl"/>
                         <outlet property="photoImageView" destination="feQ-jO-fOR" id="ReQ-5W-mwT"/>
+                        <outlet property="photobutton" destination="x6X-GX-QPe" id="Qjf-AB-CtZ"/>
                         <outlet property="titleTexitField" destination="Vil-wj-7a1" id="F0R-J5-GpB"/>
                     </connections>
                 </viewController>
@@ -339,4 +358,7 @@
             <point key="canvasLocation" x="-58" y="926"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="サウナ" width="1024" height="1024"/>
+    </resources>
 </document>

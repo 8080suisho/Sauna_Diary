@@ -80,7 +80,7 @@ class PhotoViewController: UIViewController,UINavigationControllerDelegate,UIIma
     
     @IBAction func onTappedUploadButton(){
         if photoImageView.image != nil {
-            let activityVC = UIActivityViewController(activityItems: [photoImageView.image!,"#PhotoMaster"], applicationActivities: nil)
+            let activityVC = UIActivityViewController(activityItems: [photoImageView.image!,"#サ活"], applicationActivities: nil)
             self.present(activityVC,animated: true,completion: nil)
         }else{
             print("画像がありません")

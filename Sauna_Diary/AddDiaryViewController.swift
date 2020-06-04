@@ -13,6 +13,7 @@ class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewD
    @IBOutlet weak var titleTexitField: UITextField!
    @IBOutlet weak var detailTextView: UITextView!
    @IBOutlet var photoImageView: UIImageView!
+   @IBOutlet var photobutton : UIButton!
 
    
    override func viewDidLoad() {
@@ -20,6 +21,7 @@ class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewD
        
        titleTexitField.delegate = self
        detailTextView.delegate = self
+       photobutton.layer.cornerRadius = 10
 
    }
   
