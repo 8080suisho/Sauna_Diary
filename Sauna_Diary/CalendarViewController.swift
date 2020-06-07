@@ -12,8 +12,6 @@ import Realm
 import RealmSwift
 
 class CalendarViewController: UIViewController {
-    
-
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool
     {
         return true
@@ -22,11 +20,20 @@ class CalendarViewController: UIViewController {
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCell.EditingStyle.delete {
-            diaryArray.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
-        }
+            
+            do{
+                let realm = try Realm()
+                try realm.write {
+                    realm.delete(diaryArray[indexPath.row])
+                }
+                
+                diaryArray.removeLast()
+                
+                tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
+                        }catch{
+                        }
+                }
     }
-    
 
    var diaryArray: [Diary] = []
    

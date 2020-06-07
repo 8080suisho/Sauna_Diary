@@ -69,6 +69,10 @@ class Diary: Object {
            Diary.realm.add(self)
        }
    }
+    
+   func deleate(){
+    
+   }
    
    //日付のフォーマット指定
    static func changeDateType(date: Date) -> String {
