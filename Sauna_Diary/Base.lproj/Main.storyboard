@@ -224,7 +224,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GJA-DJ-iLr">
                                 <rect key="frame" x="25" y="429" width="324" height="317"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -280,7 +280,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="feQ-jO-fOR">
-                                <rect key="frame" x="65" y="161" width="244" height="165"/>
+                                <rect key="frame" x="65.666666666666686" y="161" width="244" height="165"/>
                                 <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="165" id="fEK-gS-RQ8"/>
@@ -294,7 +294,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="84" translatesAutoresizingMaskIntoConstraints="NO" id="Aie-rY-DPc">
-                                <rect key="frame" x="65" y="334" width="244" height="40"/>
+                                <rect key="frame" x="65.666666666666686" y="334" width="244" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3SU-wU-2OX">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
@@ -355,6 +355,7 @@
                         <outlet property="detailTextView" destination="MI8-wG-f4m" id="OhD-Tb-USl"/>
                         <outlet property="photoImageView" destination="feQ-jO-fOR" id="ReQ-5W-mwT"/>
                         <outlet property="photobutton" destination="x6X-GX-QPe" id="Qjf-AB-CtZ"/>
+                        <outlet property="photobutton2" destination="3SU-wU-2OX" id="2WF-O8-Loc"/>
                         <outlet property="titleTexitField" destination="Vil-wj-7a1" id="F0R-J5-GpB"/>
                     </connections>
                 </viewController>
