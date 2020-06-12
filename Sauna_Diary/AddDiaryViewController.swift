@@ -83,6 +83,10 @@ class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewD
         photoImageView.image = info[.originalImage]as?UIImage
     }
     
+    @IBAction func onTappedCameraButton(){
+        presentPickerController(sourceType: .camera)
+    }
+    
     
     @IBAction func onTappedAlbumButton(){
         presentPickerController(sourceType: .photoLibrary)

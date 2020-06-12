@@ -380,9 +380,9 @@
 			baseConfigurationReference = 52F397094F25152CF308CA9A /* Pods-Sauna_Diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.3;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = Sauna_Diary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,7 +392,7 @@
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.SaunaApp;
 				PRODUCT_NAME = "サウナ日記";
-				PROVISIONING_PROFILE_SPECIFIER = "L12-SuishoMorohoshi-Development";
+				PROVISIONING_PROFILE_SPECIFIER = "L12SuishoMorohoshi-Distribution";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -403,9 +403,9 @@
 			baseConfigurationReference = 83A236E1710335C467F6E302 /* Pods-Sauna_Diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.3;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = Sauna_Diary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -415,7 +415,7 @@
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.SaunaApp;
 				PRODUCT_NAME = "サウナ日記";
-				PROVISIONING_PROFILE_SPECIFIER = "L12-SuishoMorohoshi-Development";
+				PROVISIONING_PROFILE_SPECIFIER = "L12SuishoMorohoshi-Distribution";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
