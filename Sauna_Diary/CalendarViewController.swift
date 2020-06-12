@@ -27,7 +27,7 @@ class CalendarViewController: UIViewController {
                     realm.delete(diaryArray[indexPath.row])
                 }
                 
-                diaryArray.removeLast()
+                diaryArray.remove(at: indexPath.row)
                 
                 tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
                         }catch{
