@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Sauna_Diary
+
+  Created by 諸星水晶 on 2020/06/11.
+  Copyright © 2020 諸星水晶. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "カメラへのアクセスを許可";
+"NSPhotoLibraryUsageDescription" = "アルバムへのアクセスを許可";

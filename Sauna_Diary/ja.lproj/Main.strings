@@ -1,0 +1,60 @@
+
+/* Class = "UINavigationItem"; title = "サ活日記"; ObjectID = "0s1-xN-8Ca"; */
+"0s1-xN-8Ca.title" = "サ活日記";
+
+/* Class = "UIBarButtonItem"; title = "もどる"; ObjectID = "1It-PW-Yg7"; */
+"1It-PW-Yg7.title" = "もどる";
+
+/* Class = "UIButton"; normalTitle = "サ活写真を撮る"; ObjectID = "1UR-nZ-9pb"; */
+"1UR-nZ-9pb.normalTitle" = "サ活写真を撮る";
+
+/* Class = "UINavigationItem"; title = "日記タイトル"; ObjectID = "3nP-Z0-Im8"; */
+"3nP-Z0-Im8.title" = "日記タイトル";
+
+/* Class = "UIButton"; normalTitle = "カメラ"; ObjectID = "83b-kT-pge"; */
+"83b-kT-pge.normalTitle" = "カメラ";
+
+/* Class = "UIButton"; normalTitle = "アルバム"; ObjectID = "BXS-gn-qc0"; */
+"BXS-gn-qc0.normalTitle" = "アルバム";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "Htf-S9-Iwp"; */
+"Htf-S9-Iwp.title" = "保存";
+
+/* Class = "UILabel"; text = "サ活を楽しめ！"; ObjectID = "QzG-rz-uj2"; */
+"QzG-rz-uj2.text" = "サ活を楽しめ！";
+
+/* Class = "UIButton"; normalTitle = "サ活について"; ObjectID = "R3p-eq-PJA"; */
+"R3p-eq-PJA.normalTitle" = "サ活について";
+
+/* Class = "UILabel"; text = "サ活とは!?"; ObjectID = "SvG-R0-XBu"; */
+"SvG-R0-XBu.text" = "サ活とは!?";
+
+/* Class = "UITextField"; placeholder = "サ活タイトル"; ObjectID = "Vil-wj-7a1"; */
+"Vil-wj-7a1.placeholder" = "サ活タイトル";
+
+/* Class = "UIButton"; normalTitle = "ハッシュタグ"; ObjectID = "ZPm-6n-dos"; */
+"ZPm-6n-dos.normalTitle" = "ハッシュタグ";
+
+/* Class = "UIButton"; normalTitle = "アップロード"; ObjectID = "cOr-YA-nXo"; */
+"cOr-YA-nXo.normalTitle" = "アップロード";
+
+/* Class = "UINavigationItem"; title = "サ活写真"; ObjectID = "iks-DQ-7Bm"; */
+"iks-DQ-7Bm.title" = "サ活写真";
+
+/* Class = "UITextView"; text = "サ活とは、サウナ活動の略称です。  シンプルに言うとサウナを楽しむこと、 それがサ活です。  サウナの楽しみ方は人それぞれですが、 なかでも「ととのう」ことがサ活の醍醐味です。  ととのうとはサウナに入ることでトリップ状態になることで、サウナマニアにはととのうためにサウナに入っているという人も多いです。  ととのうためのコンディションは人それぞれです。温度は何度か、水風呂には何回入るか、など自分に合ったものを探す必要があります。  このアプリでサ活の日記を付けることで、自分のコンディションを把握しサ活を充実させましょう！"; ObjectID = "jIh-SM-T2R"; */
+"jIh-SM-T2R.text" = "サ活とは、サウナ活動の略称です。  シンプルに言うとサウナを楽しむこと、 それがサ活です。  サウナの楽しみ方は人それぞれですが、 なかでも「ととのう」ことがサ活の醍醐味です。  ととのうとはサウナに入ることでトリップ状態になることで、サウナマニアにはととのうためにサウナに入っているという人も多いです。  ととのうためのコンディションは人それぞれです。温度は何度か、水風呂には何回入るか、など自分に合ったものを探す必要があります。  このアプリでサ活の日記を付けることで、自分のコンディションを把握しサ活を充実させましょう！";
+
+/* Class = "UIBarButtonItem"; title = "完了"; ObjectID = "lF0-r1-rVx"; */
+"lF0-r1-rVx.title" = "完了";
+
+/* Class = "UINavigationItem"; title = "サ活"; ObjectID = "n0j-AF-gg0"; */
+"n0j-AF-gg0.title" = "サ活";
+
+/* Class = "UIButton"; normalTitle = "サウナ日記を書く"; ObjectID = "qCK-FS-RDg"; */
+"qCK-FS-RDg.normalTitle" = "サウナ日記を書く";
+
+/* Class = "UIButton"; normalTitle = "完了"; ObjectID = "tIp-U3-Kvf"; */
+"tIp-U3-Kvf.normalTitle" = "完了";
+
+/* Class = "UIButton"; normalTitle = "写真を貼る"; ObjectID = "x6X-GX-QPe"; */
+"x6X-GX-QPe.normalTitle" = "写真を貼る";
