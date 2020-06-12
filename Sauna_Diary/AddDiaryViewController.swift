@@ -88,5 +88,6 @@ class AddDiaryViewController: UIViewController, UITextFieldDelegate, UITextViewD
         presentPickerController(sourceType: .photoLibrary)
     }
     
+    
    
 }

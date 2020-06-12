@@ -97,11 +97,6 @@ extension CalendarViewController: UITableViewDelegate, UITableViewDataSource {
        return cell
    }
    
-   // MARK: - TableView Delegate
-   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-       // 詳細画面に遷移
-       self.performSegue(withIdentifier: "toDetail", sender: nil)
-   }
 }
 
 extension CalendarViewController: FSCalendarDataSource, FSCalendarDelegate {

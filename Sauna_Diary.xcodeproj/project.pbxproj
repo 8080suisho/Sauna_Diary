@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		19C1DCB6AC1A7D2A094E9ED5 /* Pods_Sauna_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413FD9987EDFA4D6ED5020D3 /* Pods_Sauna_Diary.framework */; };
-		2C628F3224780F8E008C320B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C628F3124780F8E008C320B /* PhotoViewController.swift */; };
 		2C9AD3932474251700492AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3922474251700492AF8 /* AppDelegate.swift */; };
 		2C9AD3952474251700492AF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3942474251700492AF8 /* SceneDelegate.swift */; };
 		2C9AD3972474251700492AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3962474251700492AF8 /* ViewController.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		2C0BF89624912E8600C82690 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		2C0BF89724912E8600C82690 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		2C628F3124780F8E008C320B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		2C9AD38F2474251700492AF8 /* サウナ日記.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "サウナ日記.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9AD3922474251700492AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9AD3942474251700492AF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				2C9AD3AA2474376A00492AF8 /* AddDiaryViewController.swift */,
 				2C9AD3AC2474379E00492AF8 /* DetailDiaryViewController.swift */,
 				2C9AD3AE2474382600492AF8 /* SimpleAlert.swift */,
-				2C628F3124780F8E008C320B /* PhotoViewController.swift */,
 			);
 			path = Sauna_Diary;
 			sourceTree = "<group>";
@@ -232,7 +229,6 @@
 				2C9AD3972474251700492AF8 /* ViewController.swift in Sources */,
 				2C9AD3AD2474379E00492AF8 /* DetailDiaryViewController.swift in Sources */,
 				2C9AD3932474251700492AF8 /* AppDelegate.swift in Sources */,
-				2C628F3224780F8E008C320B /* PhotoViewController.swift in Sources */,
 				2C9AD3AB2474376A00492AF8 /* AddDiaryViewController.swift in Sources */,
 				2C9AD3AF2474382600492AF8 /* SimpleAlert.swift in Sources */,
 				2C9AD3952474251700492AF8 /* SceneDelegate.swift in Sources */,
@@ -384,7 +380,7 @@
 			baseConfigurationReference = 52F397094F25152CF308CA9A /* Pods-Sauna_Diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
@@ -395,7 +391,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.SaunaApp;
 				PRODUCT_NAME = "サウナ日記";
-				PROVISIONING_PROFILE_SPECIFIER = "L12SuishoMorohoshi-Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "L12-SuishoMorohoshi-Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -406,7 +402,7 @@
 			baseConfigurationReference = 83A236E1710335C467F6E302 /* Pods-Sauna_Diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
@@ -417,7 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.SaunaApp;
 				PRODUCT_NAME = "サウナ日記";
-				PROVISIONING_PROFILE_SPECIFIER = "L12SuishoMorohoshi-Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "L12-SuishoMorohoshi-Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
