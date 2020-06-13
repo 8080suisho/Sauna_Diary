@@ -14,6 +14,8 @@ class DetailDairyViewController: UIViewController {
    
    @IBOutlet weak var detailTextView: UITextView!
    @IBOutlet var photoImageView: UIImageView!
+    
+    
 
    override func viewDidLoad() {
        super.viewDidLoad()
@@ -28,7 +30,7 @@ class DetailDairyViewController: UIViewController {
     
     @IBAction func onTappedUploadButton(){
         if photoImageView.image != nil {
-            let activityVC = UIActivityViewController(activityItems: [photoImageView.image!,"#サ活"], applicationActivities: nil)
+            let activityVC = UIActivityViewController(activityItems: [selectedDiary.photo!,"#サ活"], applicationActivities: nil)
             self.present(activityVC,animated: true,completion: nil)
         }else{
             print("画像がありません")
