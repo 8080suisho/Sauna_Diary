@@ -6,6 +6,7 @@ target 'Sauna_Diary' do
   use_frameworks!
   pod 'RealmSwift'
   pod 'FSCalendar'
+  pod 'CalculateCalendarLogic'
   # Pods for Sauna_Diary
 
 end
