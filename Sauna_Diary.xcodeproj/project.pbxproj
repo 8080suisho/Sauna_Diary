@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19C1DCB6AC1A7D2A094E9ED5 /* Pods_Sauna_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413FD9987EDFA4D6ED5020D3 /* Pods_Sauna_Diary.framework */; };
+		2C3E5E0824978844001B7FA1 /* LiT.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E5E0724978844001B7FA1 /* LiT.png */; };
 		2C9AD3932474251700492AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3922474251700492AF8 /* AppDelegate.swift */; };
 		2C9AD3952474251700492AF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3942474251700492AF8 /* SceneDelegate.swift */; };
 		2C9AD3972474251700492AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AD3962474251700492AF8 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		2C0BF89624912E8600C82690 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		2C0BF89724912E8600C82690 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2C3E5E0724978844001B7FA1 /* LiT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LiT.png; path = "../../lifeistech/写真(自分用)/LiT.png"; sourceTree = "<group>"; };
 		2C9AD38F2474251700492AF8 /* サウナ日記.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "サウナ日記.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9AD3922474251700492AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9AD3942474251700492AF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				2C9AD3922474251700492AF8 /* AppDelegate.swift */,
 				2C9AD3942474251700492AF8 /* SceneDelegate.swift */,
+				2C3E5E0724978844001B7FA1 /* LiT.png */,
 				2C9AD3962474251700492AF8 /* ViewController.swift */,
 				2C9AD3982474251700492AF8 /* Main.storyboard */,
 				2C9AD39B2474251C00492AF8 /* Assets.xcassets */,
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C3E5E0824978844001B7FA1 /* LiT.png in Resources */,
 				2C9AD39F2474251C00492AF8 /* LaunchScreen.storyboard in Resources */,
 				2C9AD39C2474251C00492AF8 /* Assets.xcassets in Resources */,
 				2C9AD39A2474251700492AF8 /* Main.storyboard in Resources */,
