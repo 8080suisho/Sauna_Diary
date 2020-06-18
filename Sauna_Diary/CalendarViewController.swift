@@ -81,19 +81,10 @@ class CalendarViewController: UIViewController,FSCalendarDelegateAppearance {
    
     
     
-    
-    
-    
-    var anyImage = UIImage(named: "LiT.png")
-    
-    //画像をつける関数
-    func calendar(_ calendar: FSCalendar!, imageFor date: NSDate!) -> UIImage! {
-        return anyImage
+    func calendar(_ calendar: FSCalendar, imageFor date: Date) -> UIImage? {
+        let day: Int! = self.gregorian.component(.day, from: date)
+        return [].contains(day) ? UIImage(named: "LiT.png") : nil
     }
-    
-    
-    
-    
     
     
 
