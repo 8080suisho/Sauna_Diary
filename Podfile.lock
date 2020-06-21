@@ -1,6 +1,7 @@
 PODS:
   - CalculateCalendarLogic (0.3.0)
   - FSCalendar (2.8.1)
+  - IQKeyboardManagerSwift (6.5.5)
   - Realm (5.0.0):
     - Realm/Headers (= 5.0.0)
   - Realm/Headers (5.0.0)
@@ -10,21 +11,24 @@ PODS:
 DEPENDENCIES:
   - CalculateCalendarLogic
   - FSCalendar
+  - IQKeyboardManagerSwift
   - RealmSwift
 
 SPEC REPOS:
   trunk:
     - CalculateCalendarLogic
     - FSCalendar
+    - IQKeyboardManagerSwift
     - Realm
     - RealmSwift
 
 SPEC CHECKSUMS:
   CalculateCalendarLogic: cd5b2c706a8628bb924c5ee9d05c4f61bdbaf390
   FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   Realm: 76066d333de26f97e9caedaa85ee3ff4a62ca265
   RealmSwift: c1bdff09b422569dc6881410d9ccf712bcdb79b0
 
-PODFILE CHECKSUM: ee6f38003394edc53e94834c7d1bc679fdadc554
+PODFILE CHECKSUM: f21a239c1d3180cc58d30311d087f9977878713c
 
 COCOAPODS: 1.9.1

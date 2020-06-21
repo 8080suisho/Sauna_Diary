@@ -7,6 +7,7 @@ target 'Sauna_Diary' do
   pod 'RealmSwift'
   pod 'FSCalendar'
   pod 'CalculateCalendarLogic'
+  pod 'IQKeyboardManagerSwift'
   # Pods for Sauna_Diary
 
 end
